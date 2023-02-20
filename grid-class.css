@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ background-color: hsl(0, 0%, 90%);;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+    border-radius: 50px;
+    
+} 
+ 
+.next{
+    border: 1px ;
+    border-width: 100px;
+    width:300px;
+    height: 450px;;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.mon{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cart{
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.dollar{
+    color: green;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+section{
+    margin-top: 15px;
+}
+
+
+img {
+    width: 300px;
+}
+section p strong {
+    font-size: xx-large;
+}
+
+section p span {
+    text-decoration-line: line-through;
+margin-left: 20px;
+    
+}
+
+
+
+/*".grid-container {
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: lightblue;
+}
+
+.mon{
+    height: 200px;
+    background-color: green;
+    text-align: center;
+    font-size: large;
+    
+}
+.tue{
+    height: 200px;
+    background-color: pink;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: large;
+
+
+}*/
+/*.grid-container{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    column-gap: 20px;
+    background-color: black;
+}
+
+.life{
+    height: 200px;
+    background-color: pink;
+}
+.health{
+    height: 200px;
+    background-color: blue;
+}
+.wealth{
+    height: 200px;
+    background-color: yellow;
+}*/
+
+/*.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    text-align: center;
+    background-color: red;
+}
+.money{
+    height: 200px;
+    background-color: purple;
+}
+.fame{
+    height: 200px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.success{
+    height: 200px;
+    background-color:lightgray ;
+    border-radius: 10px;
+}
+.power{
+    height: 200px;
+    background-color: blueviolet;
+}*/
+
+/*.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1px;
+background-color: hsl(0, 0%, 90%);
+padding-top: 180px;
+padding-bottom: 200px;
+padding-left: 480px;
+padding-right: 480px;
+
+}
+
+.love{
+    height: 60vh;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.peace{
+    height: 60vh;
+    background-color: blueviolet;
+border-radius: 5px;
+}*/
